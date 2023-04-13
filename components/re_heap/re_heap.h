@@ -9,7 +9,7 @@
 #ifndef __RE_HEAP_H__
 #define __RE_HEAP_H__
 
-#include "sdkconfig.h"
+#include "def_consts.h"
 
 #if defined(CONFIG_HEAP_ALLOC_FAILED_RETRY) && (CONFIG_HEAP_ALLOC_FAILED_RETRY > 0)
   void* esp_malloc(size_t size);
